@@ -18,8 +18,8 @@ var sort = function(canvasId, strokeStyle, canvasSize){
         return;
     }
     this.context = this.canvas.getContext("2d");
-    this.context.lineWidth 		= 2;
-    this.context.strokeStyle 	= strokeStyle;
+    this.context.lineWidth 		= 1.5;
+    this.context.strokeStyle = strokeStyle;
 
     //initialize our array of values
     this.values = this.getValues(this.arraySize);
